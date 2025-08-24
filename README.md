@@ -2,6 +2,290 @@
 
 A comprehensive analytics platform that combines e-commerce data simulation, modern UI, and AI-powered natural language queries to provide deep insights into business performance.
 
+## 🎥 **Live Demo & Visual Preview**
+
+### 🌐 **Live Website Access**
+- **Main Dashboard:** http://localhost:3000
+- **API Documentation:** http://localhost:8000/docs  
+- **Backend API:** http://localhost:8000
+
+### 📱 **Dashboard Interface Preview**
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  🎯 E-Commerce Analytics Copilot                                    [Live] │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ ☰ Menu    │                    DASHBOARD OVERVIEW                          │
+│           │                                                                │
+│ 📊 Overview│  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐  │
+│ 📈 Analytics   │👥 1,000 │ │📦 500  │ │🛒 5,000 │ │💰 5.16M │ │📊$1,032 │  │
+│ 🤖 AI Query│  │Customers│ │Products │ │ Orders  │ │Revenue  │ │Avg Order│  │
+│ 👥 Customers  └─────────┘ └─────────┘ └─────────┘ └─────────┘ └─────────┘  │
+│ 📦 Products│                                                                │
+│ 🛒 Orders  │  ┌─────────────────────┐ ┌─────────────────────┐              │
+│           │  │   📈 Revenue Trend   │ │  📊 Top Products     │              │
+│           │  │                     │ │                     │              │
+│           │  │  /\    /\           │ │  ████████████       │              │
+│           │  │ /  \  /  \    /\    │ │  ████████           │              │
+│           │  │/    \/    \  /  \   │ │  ██████             │              │
+│           │  └─────────────────────┘ └─────────────────────┘              │
+│           │                                                                │
+│           │  ┌─────────────────────┐ ┌─────────────────────┐              │
+│           │  │ 🥧 Customer Segments│ │ 📊 Category Analysis │              │
+│           │  │                     │ │                     │              │
+│           │  │    Premium ●        │ │  Electronics ████   │              │
+│           │  │   Standard ●        │ │  Clothing   ███     │              │
+│           │  │     Basic ●         │ │  Home      ██       │              │
+│           │  └─────────────────────┘ └─────────────────────┘              │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 🎯 **Key UI Features**
+- **Dark Theme Interface:** Professional, modern design with Material-UI components
+- **Real-time Metrics:** Live KPI cards showing customer, product, order, and revenue data
+- **Interactive Charts:** Dynamic visualizations including line charts, bar charts, and pie charts
+- **AI Query Interface:** Natural language input with suggested queries and instant results
+- **Data Tables:** Paginated, searchable tables for customers, products, and orders
+- **Responsive Design:** Works seamlessly on desktop and mobile devices
+
+### 🤖 **AI Analytics Demo**
+
+**Sample Query:** "Show me the top 5 products by revenue"
+
+**AI Response:**
+```json
+{
+  "data": {
+    "labels": [
+      "Profit-focused disintermediate contingency",
+      "Fundamental client-server throughput", 
+      "Optional client-driven hierarchy",
+      "Open-source high-level function",
+      "Profound incremental moderator"
+    ],
+    "values": [120690.73, 117034.24, 111144.1, 108570.13, 108470.27]
+  },
+  "insights": [
+    "Top product: Profit-focused disintermediate contingency ($120,690.73)",
+    "Revenue concentration: Top 5 products account for $565,909.45",
+    "Average top product revenue: $113,181.89"
+  ],
+  "visualization_type": "bar"
+}
+```
+
+### 📊 **Interactive Visualizations**
+- **Line Charts:** Revenue trends over time with monthly breakdowns
+- **Bar Charts:** Top products, category comparisons, customer rankings
+- **Pie Charts:** Customer segment distribution, order status breakdown
+- **Metrics Cards:** Real-time KPIs with color-coded performance indicators
+
+### 🎬 **Video Demonstration Guide**
+
+**To create a video demo of your application:**
+
+1. **Record Main Dashboard:**
+   - Navigate to http://localhost:3000
+   - Show the metrics cards updating in real-time
+   - Demonstrate sidebar navigation between sections
+
+2. **Demonstrate AI Queries:**
+   - Go to the "AI Query" section
+   - Type: "Show me revenue trends over time"
+   - Show the generated line chart and insights
+   - Try: "Which are the top products by sales?"
+   - Demonstrate the bar chart visualization
+
+3. **Explore Data Tables:**
+   - Navigate to "Customers" section
+   - Show search functionality
+   - Demonstrate pagination
+   - Switch to "Products" and "Orders" sections
+
+4. **API Documentation:**
+   - Visit http://localhost:8000/docs
+   - Show the interactive API documentation
+   - Test an endpoint directly from the docs
+
+### 📸 **Screenshots to Include:**
+
+1. **Main Dashboard Overview**
+   ```bash
+   # Navigate to http://localhost:3000 and capture:
+   # - Full dashboard with metrics cards
+   # - Charts and visualizations
+   # - Sidebar navigation
+   ```
+
+2. **AI Query Interface**
+   ```bash
+   # Capture the AI query section showing:
+   # - Natural language input field
+   # - Suggested query chips
+   # - Generated visualization
+   # - Insights panel
+   ```
+
+3. **Data Tables**
+   ```bash
+   # Screenshot the data tables showing:
+   # - Customer list with search
+   # - Product catalog
+   # - Order history with filters
+   ```
+
+4. **API Documentation**
+   ```bash
+   # Capture http://localhost:8000/docs showing:
+   # - Interactive API endpoints
+   # - Request/response examples
+   # - Try-it-out functionality
+   ```
+
+### 🎥 **Live Demo Walkthrough**
+
+**Follow these steps for a complete demo:**
+
+1. **Start the Application:**
+   ```bash
+   ./launch.sh
+   ```
+
+2. **Open Browser and Navigate:**
+   - Main App: http://localhost:3000
+   - API Docs: http://localhost:8000/docs
+
+3. **Demo Sequence:**
+   - **Overview (30 seconds):** Show metrics and charts
+   - **AI Queries (60 seconds):** Demonstrate natural language processing
+   - **Data Exploration (30 seconds):** Browse tables and search
+   - **API Testing (30 seconds):** Show backend functionality
+
+4. **Key Points to Highlight:**
+   - Real-time data processing
+   - AI-powered insights generation
+   - Professional UI/UX design
+   - Comprehensive data coverage
+
+### 📷 **Adding Your Screenshots & Videos**
+
+**To add visual content to this README:**
+
+1. **Create Screenshots:**
+   ```bash
+   # Run the visual demo guide
+   ./create_visual_demo.sh
+   
+   # Follow the step-by-step instructions to capture:
+   # - Dashboard overview
+   # - AI query interface
+   # - Data tables
+   # - API documentation
+   ```
+
+2. **Add Screenshots to README:**
+   ```markdown
+   ## 📸 Application Screenshots
+   
+   ### Main Dashboard
+   ![Dashboard Overview](screenshots/dashboard.png)
+   *Real-time analytics dashboard with metrics cards and interactive charts*
+   
+   ### AI Query Interface
+   ![AI Analytics](screenshots/ai-query.png)
+   *Natural language query processing with instant visualizations*
+   
+   ### Data Tables
+   ![Data Tables](screenshots/data-tables.png)
+   *Comprehensive data exploration with search and pagination*
+   
+   ### API Documentation
+   ![API Docs](screenshots/api-docs.png)
+   *Interactive FastAPI documentation with try-it-out functionality*
+   ```
+
+3. **Embed Demo Video:**
+   ```markdown
+   ## 🎥 Live Demo Video
+   
+   [![E-Commerce Analytics Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+   
+   *Click above to watch a 3-minute demo of the application in action*
+   ```
+
+4. **Create Animated GIFs:**
+   ```markdown
+   ### 🎞️ Interactive Features
+   
+   #### AI Query Processing
+   ![AI Query Demo](screenshots/ai-query-demo.gif)
+   
+   #### Real-time Chart Generation
+   ![Chart Generation](screenshots/chart-generation.gif)
+   ```
+
+**📁 Recommended File Structure:**
+```
+screenshots/
+├── dashboard.png          # Main dashboard overview
+├── ai-query.png          # AI query interface
+├── data-tables.png       # Data exploration tables
+├── api-docs.png          # FastAPI documentation
+├── ai-query-demo.gif     # AI query in action
+└── chart-generation.gif  # Chart generation demo
+```
+
+## 📸 **Application Screenshots**
+
+<!-- Replace these placeholder sections with actual screenshots when ready -->
+
+### 🏠 Main Dashboard
+```
+[SCREENSHOT PLACEHOLDER: Dashboard Overview]
+📍 Capture: http://localhost:3000
+📝 Shows: Metrics cards, charts, sidebar navigation, dark theme
+```
+*Real-time analytics dashboard with live KPIs and interactive visualizations*
+
+### 🤖 AI Query Interface
+```
+[SCREENSHOT PLACEHOLDER: AI Analytics]
+📍 Capture: http://localhost:3000 → AI Query section
+📝 Shows: Natural language input, suggested queries, generated charts, insights
+```
+*AI-powered query processing with instant visualization generation*
+
+### 📊 Data Tables
+```
+[SCREENSHOT PLACEHOLDER: Data Exploration]
+📍 Capture: http://localhost:3000 → Customers/Products/Orders sections
+📝 Shows: Searchable tables, pagination, detailed data views
+```
+*Comprehensive data exploration with advanced filtering and search*
+
+### 📚 API Documentation
+```
+[SCREENSHOT PLACEHOLDER: API Documentation]
+📍 Capture: http://localhost:8000/docs
+📝 Shows: Interactive FastAPI docs, endpoint testing, request/response examples
+```
+*Complete API documentation with try-it-out functionality*
+
+## 🎥 **Live Demo Video**
+
+<!-- Add your demo video here -->
+```
+[VIDEO PLACEHOLDER: Live Demo]
+📹 Record: 2-3 minute walkthrough following ./create_visual_demo.sh guide
+🎬 Upload to: YouTube, Vimeo, or GitHub releases
+📝 Shows: Complete application workflow and features
+```
+
+**To add your video:**
+```markdown
+[![E-Commerce Analytics Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+```
+
 ## Features
 
 ### 🏪 **Data Lakehouse Simulation**
