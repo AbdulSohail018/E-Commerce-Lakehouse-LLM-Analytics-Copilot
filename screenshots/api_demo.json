@@ -1,0 +1,22 @@
+{
+  "sample_query": "Show me the top 5 products by revenue",
+  "response": {
+    "data": {
+      "labels": [
+        "Profit-focused disintermediate contingency",
+        "Fundamental client-server throughput", 
+        "Optional client-driven hierarchy",
+        "Open-source high-level function",
+        "Profound incremental moderator"
+      ],
+      "values": [120690.73, 117034.24, 111144.1, 108570.13, 108470.27]
+    },
+    "insights": [
+      "Top product: Profit-focused disintermediate contingency ($120,690.73)",
+      "Revenue concentration: Top 5 products account for $565,909.45",
+      "Average top product revenue: $113,181.89"
+    ],
+    "visualization_type": "bar",
+    "query_interpretation": "Analyzing products, revenue with ranking approach"
+  }
+}
