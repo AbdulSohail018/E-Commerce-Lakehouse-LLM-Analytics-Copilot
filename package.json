@@ -1,0 +1,26 @@
+{
+  "name": "ecommerce-lakehouse-llm-analytics",
+  "version": "1.0.0",
+  "description": "E-Commerce Lakehouse LLM Analytics Copilot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && source venv/bin/activate && python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload",
+    "frontend": "cd frontend && npm start",
+    "install-all": "cd backend && python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "ecommerce",
+    "analytics",
+    "lakehouse",
+    "llm",
+    "copilot"
+  ],
+  "author": "Analytics Copilot",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
